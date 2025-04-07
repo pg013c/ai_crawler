@@ -1,0 +1,26 @@
+{
+  "name": "ai-crawler",
+  "version": "0.0.1",
+  "description": "Webrcawling website",
+  "main": "index.ts",
+  "author": "Golek",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "execute": "tsc && node"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.2.5",
+    "@langchain/community": "^0.3.38",
+    "@langchain/core": "^0.3.43",
+    "ai": "^4.2.10",
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "@types/puppeteer": "^7.0.4",
+    "typescript": "^5.8.2"
+  }
+}

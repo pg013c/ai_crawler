@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  yarn:
+    build: ./
+    working_dir: /app
+    entrypoint: yarn
+    volumes:
+      - .:/app
